@@ -19,3 +19,9 @@ body {
 hr {
   border-color: hsla(0, 0%, 100%, 0.082);
 }
+
+@media (max-width: 768px) {
+  body {
+    padding: 0;
+  }
+}
