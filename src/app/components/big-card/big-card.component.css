@@ -40,10 +40,3 @@
   color: var(--grey);
   line-height: 1.5rem;
 }
-
-@media (max-width: 320px) {
-  .img__wrapper {
-    height: 2rem;
-    width: 100%;
-  }
-}

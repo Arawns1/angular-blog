@@ -28,9 +28,3 @@
   color: inherit;
   cursor: pointer;
 }
-
-@media (max-width: 768px) {
-  .nav__wrapper {
-    display: none;
-  }
-}

@@ -3,18 +3,3 @@
   margin: 1rem 0rem;
   font-size: 15rem;
 }
-
-@media (max-width: 1024px) {
-  .container__menu-title {
-    margin-bottom: 50vh;
-  }
-  .container__menu-title > h1 {
-    font-size: 6rem;
-    width: 100%;
-  }
-}
-@media (max-width: 768px) {
-  .container__menu-title {
-    margin-bottom: 60vh;
-  }
-}

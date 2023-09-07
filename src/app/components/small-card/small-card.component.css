@@ -39,12 +39,3 @@
 .side-post__title:hover {
   filter: brightness(0.9);
 }
-
-@media (max-width: 425px) {
-  .side-post__wrapper {
-    flex-direction: column;
-  }
-  .side-post__img__wrapper {
-    width: 100%;
-  }
-}
