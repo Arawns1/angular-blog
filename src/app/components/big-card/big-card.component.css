@@ -1,0 +1,40 @@
+.post__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.img__wrapper {
+  height: 25rem;
+  width: 100%;
+}
+
+.img__wrapper > img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.post__content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.125rem;
+  margin-top: 1.5rem;
+}
+.post__postedTime {
+  text-transform: capitalize;
+  color: var(--grey);
+  font-size: 0.8rem;
+}
+.post__title {
+  font-weight: 600;
+  font-size: 1.75rem;
+}
+.post__title:hover {
+  filter: brightness(0.9);
+}
+.post__description {
+  color: var(--grey);
+  line-height: 1.5rem;
+}
