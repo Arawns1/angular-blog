@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Post } from 'src/app/model/postModel';
 
 @Component({
   selector: 'app-small-card',
@@ -8,4 +9,6 @@ import { Component } from '@angular/core';
     './small-card.responsive.component.css',
   ],
 })
-export class SmallCardComponent {}
+export class SmallCardComponent {
+  @Input() post: Post = new Post(0, '', '', '', '', false);
+}

@@ -1,0 +1,12 @@
+<app-menu-title></app-menu-title>
+<div class="main__wrapper">
+  <main class="main__post">
+    <app-big-card [post]="postPrincipal[0]"></app-big-card>
+  </main>
+  <aside>
+    <ng-container *ngFor="let post of postsSecundarios">
+      <app-small-card [post]="post"></app-small-card>
+      <hr />
+    </ng-container>
+  </aside>
+</div>

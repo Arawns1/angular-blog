@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Post } from 'src/app/model/postModel';
 
 @Component({
   selector: 'app-big-card',
@@ -8,4 +9,6 @@ import { Component } from '@angular/core';
     './big-card.responsive.component.css',
   ],
 })
-export class BigCardComponent {}
+export class BigCardComponent {
+  @Input() post: Post = new Post(0, '', '', '', '', false);
+}

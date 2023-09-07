@@ -1,12 +1,11 @@
-<article class="side-post__wrapper">
+<article class="side-post__wrapper" routerLink="/article/{{ post.id }}">
   <div class="side-post__img__wrapper">
     <img src="https://source.unsplash.com/random" alt="Imagem do post" />
   </div>
   <div class="side-post__content">
-    <time class="side-post__postedTime"> januari 11, 2022</time>
+    <time class="side-post__postedTime"> {{ post.posted }}</time>
     <h2 class="side-post__title">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum laborum nam
-      tenetur voluptates, velit mollitia totam.
+      {{ post.title }}
     </h2>
   </div>
 </article>
