@@ -1,3 +1,7 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
 .main__wrapper {
   width: 100%;
   display: flex;
