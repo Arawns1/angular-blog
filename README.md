@@ -24,7 +24,7 @@ O principal objetivo deste projeto foi aprofundar meus conhecimentos no angular,
 
 # 🎨 Referências
 
-- [Demo Aqui]()
+- [Demo Aqui](https://angular-blog-rosy.vercel.app/)
 - [Inspiração](https://dribbble.com/shots/18089191-Blog-Layout)
 
 ## 💻 Como Rodar?
