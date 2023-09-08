@@ -1,8 +1,32 @@
-# Blog
+<h1 align="center">
+        <img alt="Banner" title="#Banner" style="object-fit: contain; height:250px;" src="https://media.discordapp.net/attachments/929069726372597815/1149490892747579402/image.png?width=517&height=130"  />
+</h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+# 📝 The Blog Project
 
-## Development server
+<p align="center"> Projeto de um simples blog feito em Angular </p>
+
+# 🛠 Tecnologias Utilizadas
+
+- Typescript
+- Angular
+- Rotas
+- MockAPI
+
+# 🎯 Objetivo Principal
+
+O principal objetivo deste projeto foi aprofundar meus conhecimentos no angular, realizando requisições externas e controlando rotas
+
+📸 Visuais e Telas
+<img alt="Banner" title="#Banner" style="object-fit: cover; height:250px;" src="https://media.discordapp.net/attachments/929069726372597815/1149493149752885319/screencapture-localhost-4200-2023-09-07-20_35_03.png?width=719&height=558"  />
+<img alt="Banner" title="#Banner" style="object-fit: cover; height:250px;" src="https://media.discordapp.net/attachments/929069726372597815/1149493150126190612/screencapture-localhost-4200-article-4-2023-09-07-20_35_19.png?width=915&height=421"  />
+
+# 🎨 Referências
+
+- [Demo Aqui]()
+- [Inspiração](https://dribbble.com/shots/18089191-Blog-Layout)
+
+## 💻 Como Rodar?
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
